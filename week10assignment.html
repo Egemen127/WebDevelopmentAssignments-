@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My webpage</title>
+	<style type="text/css">
+	body{
+		text-align: center;
+		background-color: beige;
+	}
+	input{
+		display: block;
+		margin: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 90%;
+		font-family: inherit;
+	}
+form{
+	border: 10px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	width: 400px;
+	margin: auto;
+	background-color: lightgrey;
+}
+textarea{
+	width: 90%;
+	height: 300px;
+	resize: none;
+	font-family: inherit;
+}
+label{ 
+	margin-left: 0%;
+}
+select{ width: 90%;
+margin: auto; }</style>
+</head>
+<body>
+<h1 style="text-align: center; font-family: sans-serif;">Contact Us</h1>
+<form method="POST" action="">
+	<label for="fname">First Name</label>
+<input type="text" placeholder="First Name" id="fname">
+<label for="lname">Last Name</label>
+<input type="text" placeholder="Last Name" id="lname">
+<label for="email">Email</label>
+<input type="text" placeholder="Email" id="email">
+<label for="subject">Subject</label>
+<select name="subject" style="margin: 5px;">
+<option value="s1">Subject1</option>
+<option value="s2">Subject2</option>
+<option value="s3">Subject3</option></select>
+<label for="msg">Your Message</label>
+<textarea placeholder="Your Message" id="msg"></textarea>
+<input type="submit" name="Submit" >
+</form></body>
+</html>
